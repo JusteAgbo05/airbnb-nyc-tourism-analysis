@@ -1,0 +1,53 @@
+# Environnements Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets et identifiants (Kaggle / Streamlit / variables d'environnement)
+.env
+.env.*
+!.env.example
+**/kaggle.json
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Données brutes et données générées : ne pas versionner les CSV du dataset
+# Les fichiers .gitkeep sont conservés pour maintenir l'arborescence.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/**/*.csv
+data/**/*.csv.gz
+data/**/*.zip
+
+# Fichiers générés localement et modèles entraînés
+outputs/
+artifacts/
+models/
+*.joblib
+*.pkl
+*.pickle
+*.sav
+
+# Logs, caches et fichiers système
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Couverture de tests
+.coverage
+htmlcov/
+
+# Dataset source file, même s'il est déposé accidentellement à la racine
+AB_NYC_2019.csv

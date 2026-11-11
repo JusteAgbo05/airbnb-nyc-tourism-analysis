@@ -1,0 +1,65 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Airbnb NYC 2019 — Analyse et prédiction des prix</title>
+  <desc id="desc">Bannière vert pétrole avec silhouette urbaine, repères géographiques et visualisation de données.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1400" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#103B39"/>
+      <stop offset="0.58" stop-color="#15514D"/>
+      <stop offset="1" stop-color="#0B292B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#59C5B1"/>
+      <stop offset="1" stop-color="#D7AD62"/>
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M42 0H0V42" stroke="#D5EEE8" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="420" rx="28" fill="url(#background)"/>
+  <rect width="1400" height="420" rx="28" fill="url(#grid)"/>
+  <circle cx="1130" cy="145" r="190" fill="#56BBAA" fill-opacity="0.09"/>
+  <circle cx="1220" cy="320" r="170" fill="#D7AD62" fill-opacity="0.07"/>
+  <ellipse cx="1120" cy="365" rx="250" ry="24" fill="#061B1D" fill-opacity="0.5" filter="url(#shadow)"/>
+
+  <!-- Abstract NYC skyline -->
+  <g stroke="#B9DCD4" stroke-opacity="0.42" stroke-width="2">
+    <path d="M845 365V225H900V365M855 245H890M855 266H890M855 287H890M855 308H890"/>
+    <path d="M910 365V178H970V365M923 198H957M923 221H957M923 244H957M923 267H957M923 290H957"/>
+    <path d="M980 365V235H1025V365M990 255H1015M990 278H1015M990 301H1015"/>
+    <path d="M1037 365V145H1100V365M1050 168H1087M1050 193H1087M1050 218H1087M1050 243H1087M1050 268H1087M1050 293H1087"/>
+    <path d="M1110 365V205H1165V365M1122 226H1153M1122 249H1153M1122 272H1153M1122 295H1153"/>
+    <path d="M1178 365V250H1220V365M1188 270H1210M1188 293H1210M1188 316H1210"/>
+    <path d="M1232 365V190H1295V365M1245 213H1282M1245 238H1282M1245 263H1282M1245 288H1282M1245 313H1282"/>
+    <path d="M1070 145V112M1062 124H1078M1066 112H1074" stroke="#D7AD62" stroke-opacity="0.8"/>
+  </g>
+  <path d="M820 365H1335" stroke="#D1E8E2" stroke-opacity="0.45" stroke-width="2"/>
+
+  <!-- Map marker -->
+  <g transform="translate(1190 86)">
+    <path d="M0 0C-25 0-44 19-44 43C-44 76 0 111 0 111C0 111 44 76 44 43C44 19 25 0 0 0Z" fill="#D7AD62" fill-opacity="0.16" stroke="#E0BD7B" stroke-width="2.5"/>
+    <circle cx="0" cy="42" r="14" fill="url(#accent)"/>
+    <circle cx="0" cy="42" r="5" fill="#123B3A"/>
+  </g>
+
+  <!-- Data trend line -->
+  <g transform="translate(1015 320)">
+    <path d="M0 0L38 -24L76 -14L114 -54L152 -43L190 -83" stroke="#63C8B3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0 0L38 -24L76 -14L114 -54L152 -43L190 -83" stroke="#63C8B3" stroke-opacity="0.2" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#F1D49E" stroke="#164744" stroke-width="2">
+      <circle cx="0" cy="0" r="5"/><circle cx="38" cy="-24" r="5"/><circle cx="76" cy="-14" r="5"/>
+      <circle cx="114" cy="-54" r="5"/><circle cx="152" cy="-43" r="5"/><circle cx="190" cy="-83" r="5"/>
+    </g>
+  </g>
+
+  <!-- Left text area -->
+  <rect x="72" y="68" width="7" height="282" rx="3.5" fill="url(#accent)"/>
+  <text x="112" y="112" fill="#9BD9CB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="4">DATA SCIENCE  /  TOURISME</text>
+  <text x="108" y="190" fill="#F6F8F4" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="750" letter-spacing="-1.5">AIRBNB NYC 2019</text>
+  <text x="112" y="244" fill="#D7E7E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="29" font-weight="500">Analyse et prédiction des prix</text>
+  <path d="M112 277H550" stroke="#D7AD62" stroke-opacity="0.8" stroke-width="2"/>
+  <text x="112" y="316" fill="#B8D4CC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="500">Nettoyage  ·  Exploration  ·  Régression</text>
+  <text x="112" y="365" fill="#80B7AA" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1.5">VIVIEN AGBO  ×  ADANLAO LAURINDA</text>
+</svg>
