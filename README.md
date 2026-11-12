@@ -16,6 +16,8 @@
 **Projet académique - Domaine : Tourisme**  
 **Réalisé par : Vivien AGBO & ADANLAO Laurinda**
 
+[**Ouvrir l'application Streamlit**](https://airbnb-nyc-tourism-analysis.streamlit.app/)
+
 </div>
 
 ---
@@ -155,16 +157,14 @@ airbnb-nyc-tourism-analysis/
 └── requirements.txt
 ```
 
-Une démonstration interactive réalisée avec **Streamlit** sera ajoutée dans une prochaine étape du projet.
+L'application interactive est disponible en ligne sur [Streamlit Community Cloud](https://airbnb-nyc-tourism-analysis.streamlit.app/). Elle permet d'explorer les annonces, d'analyser le marché et de tester une estimation de prix indicative.
 
 ## Installation et exécution
 
 ### 1. Cloner le dépôt
 
-Remplacez `<votre-utilisateur>` par votre nom d'utilisateur GitHub :
-
 ```bash
-git clone https://github.com/<votre-utilisateur>/airbnb-nyc-tourism-analysis.git
+git clone https://github.com/JusteAgbo05/airbnb-nyc-tourism-analysis.git
 cd airbnb-nyc-tourism-analysis
 ```
 
@@ -207,12 +207,24 @@ Ouvrez ensuite `notebooks/01_airbnb_nyc_cleaning_eda_modeling.ipynb` et exécute
 
 Le notebook exporte le fichier nettoyé sous `data/processed/AB_NYC_2019_cleaned.csv`.
 
+### 6. Lancer l'application Streamlit en local
+
+Depuis la racine du dépôt, après avoir activé l'environnement virtuel et installé les dépendances :
+
+```bash
+streamlit run app.py
+```
+
+Streamlit ouvre l'application dans votre navigateur, généralement à l'adresse `http://localhost:8501`. Si le navigateur ne s'ouvre pas automatiquement, copiez cette adresse dans votre navigateur.
+
+L'application charge `data/raw/AB_NYC_2019.csv` s'il est présent. Sinon, elle tente de télécharger le jeu de données public ; vous pouvez également l'importer avec le champ prévu dans la barre latérale.
+
 ## Livrables
 
 - Notebook Python commenté en français avec diagnostic, nettoyage, interprétations, EDA et essai de modélisation.
 - CSV nettoyé généré localement à l'exécution.
 - Présentation PowerPoint modifiable et version PDF dans `reports/`.
-- Application Streamlit interactive : à venir.
+- Application Streamlit interactive : [ouvrir la version en ligne](https://airbnb-nyc-tourism-analysis.streamlit.app/) ou la lancer en local avec `streamlit run app.py`.
 
 ## Limites et précautions d'interprétation
 
