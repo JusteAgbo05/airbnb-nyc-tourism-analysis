@@ -11,6 +11,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4C72B0)](https://seaborn.pydata.org/)
 [![Scikit--learn](https://img.shields.io/badge/Scikit--learn-Machine_Learning-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Interactive_App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 
 **Projet académique - Domaine : Tourisme**  
 **Réalisé par : Vivien AGBO & ADANLAO Laurinda**
@@ -108,7 +109,7 @@ Les approches comparées sont :
 
 | Modèle | MAE sur le jeu de test |
 |---|---:|
-| Baseline - médiane | 82,73 USD |
+| Baseline — médiane | 82,73 USD |
 | Régression Ridge | 59,72 USD |
 | Forêt aléatoire | **55,49 USD** |
 
@@ -148,6 +149,7 @@ airbnb-nyc-tourism-analysis/
 ├── reports/
 │   ├── Presentation_Airbnb_Interpretee.pdf
 │   └── Presentation_Airbnb_Interpretee.pptx
+├── app.py
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -229,13 +231,13 @@ Le notebook exporte le fichier nettoyé sous `data/processed/AB_NYC_2019_cleaned
 - **Documentation Seaborn :** [seaborn.pydata.org](https://seaborn.pydata.org/).
 - **Documentation scikit-learn :** [scikit-learn.org](https://scikit-learn.org/).
 
-La fiche Kaggle du jeu de données indique une licence **CC0 — Public Domain** pour cette version. Vérifiez toujours la licence et les obligations d'attribution de la source exacte avant de redistribuer un fichier de données.
+La fiche Kaggle du jeu de données indique une licence **CC0 - Public Domain** pour cette version. Vérifiez toujours la licence et les obligations d'attribution de la source exacte avant de redistribuer un fichier de données.
 
 ---
 
 <div align="center">
 
-**Réalisé dans le cadre d'un travail pratique de Data Science — Domaine Tourisme**  
+**Réalisé dans le cadre d'un travail pratique de Data Science - Domaine Tourisme**  
 *Du nettoyage des données à un premier modèle de prédiction des prix.*
 
 </div>

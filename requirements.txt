@@ -1,14 +1,21 @@
-# Environnement du notebook : nettoyage, EDA et régression
+# Manipulation et analyse des données
 pandas>=2.0,<3.0
 numpy>=1.24,<3.0
-matplotlib>=3.7,<4.0
-seaborn>=0.13,<1.0
+
+# Visualisations interactives
+plotly>=5.20,<7.0
+
+# Application web
+streamlit>=1.40,<2.0
+
+# Machine Learning
 scikit-learn>=1.3,<2.0
 
-# Téléchargement du dataset depuis Kaggle
+# Téléchargement du dataset public Kaggle
 kagglehub>=0.2
-kaggle>=1.6
 
-# Exécution du notebook
+# Dépendances du notebook
+matplotlib>=3.7,<4.0
+seaborn>=0.13,<1.0
 jupyterlab>=4.0
 ipykernel>=6.29

@@ -19,11 +19,8 @@ __pycache__/
 
 # Données brutes et données générées : ne pas versionner les CSV du dataset
 # Les fichiers .gitkeep sont conservés pour maintenir l'arborescence.
-data/raw/*
-!data/raw/.gitkeep
 data/processed/*
 !data/processed/.gitkeep
-data/**/*.csv
 data/**/*.csv.gz
 data/**/*.zip
 
@@ -50,4 +47,4 @@ Thumbs.db
 htmlcov/
 
 # Dataset source file, même s'il est déposé accidentellement à la racine
-AB_NYC_2019.csv
+

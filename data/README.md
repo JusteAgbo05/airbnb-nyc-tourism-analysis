@@ -1,8 +1,11 @@
 # Données du projet
 
-Les fichiers de données ne sont pas versionnés dans Git afin de garder le dépôt léger et d'éviter de redistribuer le jeu de données source.
+Le jeu de données utilisé est **New York City Airbnb Open Data (2019)**, fichier `AB_NYC_2019.csv`.
 
-- `raw/` : placer ici le fichier original `AB_NYC_2019.csv`.
-- `processed/` : le notebook y exporte `AB_NYC_2019_cleaned.csv` après exécution.
+Pour conserver un dépôt Git léger, les fichiers CSV ne sont pas versionnés.
 
-Le notebook tente également de télécharger automatiquement le jeu de données depuis Kaggle. En cas de demande d'authentification, configurez vos identifiants Kaggle localement et ne les ajoutez jamais au dépôt.
+- Déposer le fichier brut dans `data/raw/AB_NYC_2019.csv` ; ou
+- lancer l'application : elle tente de télécharger le jeu public avec KaggleHub ; ou
+- importer le CSV depuis le champ prévu dans la barre latérale de l'application Streamlit.
+
+Ne placez jamais de jeton Kaggle, de fichier `kaggle.json` ou d'identifiant personnel dans ce dossier ou dans Git.
